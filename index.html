@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <header>
+            <!-- Nav bar for the application -->
+                    <div class="nav-link" id="myTopnav">
+                        <a href="#" class="logo-b"><img src="./images/logo-black.png" alt="logo"></a>
+                        <a href="#" class="links">Landings</a>
+                        <a href="#" class="links">Pages</a>
+                        <a href="#" class="links">Blog</a>
+                        <a href="#" class="links">Support</a>
+                        <a href="#" class="signin">SignIn</a>
+                        <a href="#" class="start">Get Started</a>
+                        <a href="#" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                    </div>
+        </header>
+        <div class="hero">
+            <div class="text-section">
+                <h1 class="banner-text">
+                    Live chat Support for our <br/> customers
+                </h1>
+                <p class="content">
+                    Create custom landing pages with Shades that convert more visitors than any website—no coding required.
+                </p>
+                <div class="get-started">
+                    <input type="email" placeholder="Enter your email">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+            <div class="img-section">
+                <img class="hero-banner" src="./images/l1-hero-img.png" alt="Banner image">
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "nav-link") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav-link";
+                }
+            }
+        </script>
+</section>
+</body>
+</html>
