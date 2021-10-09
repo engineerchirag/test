@@ -68,7 +68,6 @@ header {
   background: #0f899c;
   color: white;
   font-weight: 500;
-  border-radius: 3px;
 }
 .nav-link .start:hover {
   background: #fff;
@@ -79,11 +78,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 
 h1 {
-  margin-left: 165px;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.2px;
@@ -106,9 +103,6 @@ h1 {
   height: 7vh;
   width: 23vw;
   background: #cce0e0;
-  border: none;
-  font-size: 20px;
-  font-stretch: normal;
 }
 
 .get-started > a {
